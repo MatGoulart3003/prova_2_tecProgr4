@@ -8,57 +8,37 @@
     </head>
     <body>
 
-        <h1>Titulo teste</h1>      
+        <h1>REDE SOCIAL MALUCA DO MATEUS!</h1>      
 
         <div>
 
-            <h2>Div teste</h2>
+            <h2>Bem vinda a tela de login! 
+                <br> Insira seus dados abaixo:</h2>
 
-            <form>
+            <form id="form">
                 <div>
-                    <h3>Formulário de teste</h3>
-                    <label for="">label teste: </label>
-                    <input type="text" name="" id="">
-                    <input type="submit" value="teste" id="">
-                <!-- comentário -->
-
-                </div>
-                <input type="submit" value="teste" id="">
-                
-                <div>
-                    <h3>Tabela de teste</h3>
+                    <h3>Login:</h3>
+                    <div class="usuario">
+                        <label for="user">Usuário: </label>
+                        <input type="text" name="" id="user">
+                    </div>
                     
-                    <table>                       
-                        <thead>                       
-                            <tr>
-                                <th>teste 1</th>
-                                <th>teste 2</th>
-                                <th>teste 3</th>
-                                <th>teste 4</th>
-                                <th>teste 5</th>
-                            </tr>    
-                        </thead>
-                        <tbody>
-                            <!-- alguma coisa vai aparecer aqui dinamicamente -->
-                            <td>teste 1</td>
-                            <td>teste 2</td>
-                            <td>teste 3</td>
-                            <td>teste 4</td>
-                            <td>teste 5</td>
+                    <div class="senha">
+                        <label for="pass">Senha: </label>
+                        <input type="text" name="" id="pass">
+                    </div>
 
-                        </tbody>
-                        
-                    </table>
-
-
-
+                    <input type="button" value="Entrar" id="enter">
+                   
                 </div>
-
-
+                
+                <div id="loginAns"></div>
             </form>
         
         
         </div>
+
+        
    
     
         <script src="js/index.js"></script>

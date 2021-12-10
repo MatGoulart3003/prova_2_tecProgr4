@@ -1,5 +1,39 @@
+body{
+    background-color: rgb(195, 195, 252);
+}
 h1{
+    color: rgb(0, 0, 255);
+    text-align: center;
+}
 
-    color: blue;
+h2{
+    color: rgb(75, 75, 255);
+    text-align: center;
+}
+h3{
+    color: rgb(119, 119, 250);
+    text-align: center;
+    padding-top: 25px;
+}
+
+#form{
+    text-align: center;
+    background-color: rgb(179, 179, 247);
+    box-shadow: 3px 0px 11px -1px #646464;
+}
+
+.usuario, .senha, #enter{
+
+    margin-top: 25px;
+    text-align: center;
     
+}
+#enter{
+    margin-bottom: 25px;
+}
+p{  
+    margin-top: 0;
+    padding-bottom: 25px;
+    font-size: 25px;
+    color: rgb(216, 0, 0);
 }
